@@ -1,0 +1,21 @@
+{
+  "name": "office-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "docxtemplater": "^3.71.1",
+    "express": "^5.3.0",
+    "mammoth": "^1.13.0",
+    "pizzip": "^3.3.0"
+  }
+}
